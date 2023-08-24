@@ -18,6 +18,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.source       = { :git => "https://github.com/glassonion1/RxStoreKit.git", :tag => "#{s.version}" }
   s.source_files  = "Sources/**/*.{swift}"
-  s.dependency 'RxSwift', '~> 6.0.0'
-  s.dependency 'RxCocoa', '~> 6.0.0'
+  s.dependency 'RxSwift'
+  s.dependency 'RxCocoa'
 end
